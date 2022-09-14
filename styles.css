@@ -1,20 +1,26 @@
 body{
 
-    background-image: url(testBildiPhone2.jpg);
+   /* background-image: url(testBildiPhone3.jpg);
     background-repeat: no-repeat;
+    background-size: cover; */
     
 }
 
 
 .header{
     color:green; 
-    /*background-color:red; */
+    background-color:red; 
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    border:solid black 3px;
 }
 
 .content{
@@ -22,11 +28,12 @@ body{
     color:white;
     display: flex;
     flex-direction: row;
+    
 
     
 }
 .personligInfo{
-    /*background-color: orange; */
+    background-color: orange; 
 
     display: flex;
     flex-direction: column;
@@ -35,10 +42,15 @@ body{
     width: 20%;
     margin-left: 1rem;
     padding-left: 5px;
+    margin-right: 1rem;
+    /*border-left: solid black 3px;
+    border-bottom: solid black 3px;*/
+    border: solid black 3px;
+
 }
 
 .cv{
-    /*background-color: green; */
+    background-color: green; 
 
     display:flex; 
     flex-direction: column;
@@ -46,21 +58,44 @@ body{
     
     width: 60%;
     padding-left: 5px;
+    /*border-left: solid black 3px;
+    border-right: solid black 3px;
+    border-bottom: solid black 3px;
+    */
+    border:solid black 3px;
 }
 
 .kontaktInfo{
-    /*background-color: blueviolet; */
+    background-color: blueviolet; 
 
     display:flex;
     flex-direction: column;
-    justify-content: flex-end;
+    /*justify-content: flex-end; */
 
     width: 20%;
     padding-left: 5px;
-
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border:solid black 3px;
+    /*
+    border-right: solid black 3px;
+    border-bottom: solid black 3px;
+    */
     
 }
 
 footer{
     background-color: grey;
+    color: blue;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding-left: 5px;
+    text-align: left;
+    border:solid black 3px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
