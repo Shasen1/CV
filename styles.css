@@ -7,13 +7,13 @@ body{
 }
 
 
-.header{
+header{
     color:green; 
     background-color:red; 
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     margin-left: 1rem;
@@ -23,11 +23,22 @@ body{
     border:solid black 3px;
 }
 
+.navLinks{
+    display:flex;
+    
+
+}
+
+.navLinks li{
+    display: inline-block;
+    margin: 1rem;
+}
 .content{
     
-    color:white;
+    background-color: aqua;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
     
 
     
@@ -37,7 +48,8 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:center; 
+    align-self: center;
 
     width: 20%;
     margin-left: 1rem;
@@ -71,6 +83,7 @@ body{
     display:flex;
     flex-direction: column;
     /*justify-content: flex-end; */
+    align-self: flex-end;
 
     width: 20%;
     padding-left: 5px;
