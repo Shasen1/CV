@@ -63,17 +63,22 @@ header{
 
     
 }
+
+
 .personligInfo{
     background-color: orange; 
 
+    
     display: flex;
     flex-direction: column;
     justify-content:center; 
     align-self: center;
+    
 
     width: 20%;
     margin-left: 1rem;
     padding-left: 5px;
+    padding-right: 5px;
     margin-right: 1rem;
     /*border-left: solid black 3px;
     border-bottom: solid black 3px;*/
