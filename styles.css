@@ -1,14 +1,12 @@
 html{
     scroll-behavior: smooth;
 }
-
 body{
-
-   /* background-image: url(testBildiPhone3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
 }
+
 
 li, a{
 
@@ -25,6 +23,15 @@ a:link{
     text-decoration: none;
 }
 
+.navLinks{
+    display:flex;
+    
+}
+
+.navLinks li{
+    display: inline-block;
+    margin: 1rem;
+}
 
 
 header{
@@ -39,49 +46,37 @@ header{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-
-    border:solid black 3px;
+    padding-right: 5px;
+    border:solid black 4px;
 }
 
-.navLinks{
-    display:flex;
+img{
+    height: auto;
+    max-width: 18%;
     
-
 }
 
-.navLinks li{
-    display: inline-block;
-    margin: 1rem;
-}
 .content{
     
-    background-color: aqua;
+    
     display: flex;
-    flex-direction: column;
-    
-    
-
-    
+    flex-direction: row;  
 }
 
 
 .personligInfo{
     background-color: orange; 
 
-    
     display: flex;
     flex-direction: column;
-    justify-content:center; 
-    align-self: center;
+    justify-content:flex-end; 
     
-
-    width: 20%;
-    margin-left: 1rem;
+    width: 25rem;
+    margin-right: 1rem;
     padding-left: 5px;
     padding-right: 5px;
     margin-right: 1rem;
-    /*border-left: solid black 3px;
-    border-bottom: solid black 3px;*/
+    
     border: solid black 3px;
 
 }
@@ -91,14 +86,14 @@ header{
 
     display:flex; 
     flex-direction: column;
-    justify-content: center; 
+    justify-content: flex-start; 
     
-    width: 60%;
+    
+    width: 80rem;
     padding-left: 5px;
-    /*border-left: solid black 3px;
-    border-right: solid black 3px;
-    border-bottom: solid black 3px;
-    */
+    margin-left: 1rem;
+    margin-right: 5rem;
+    
     border:solid black 3px;
 }
 
@@ -107,18 +102,15 @@ header{
 
     display:flex;
     flex-direction: column;
-    /*justify-content: flex-end; */
-    align-self: flex-end;
+    justify-content: center; 
+    
 
-    width: 20%;
+    
     padding-left: 5px;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin: 1rem;
     border:solid black 3px;
-    /*
-    border-right: solid black 3px;
-    border-bottom: solid black 3px;
-    */
+    
+    
     
 }
 
